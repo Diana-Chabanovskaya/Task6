@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(252, 192, 192, 0.71);
+}
+.container{
+    margin: auto;
+    max-width: 1300px;
+    text-align: center;
+    padding: 45px;
+}
+.container h1{
+    margin-bottom: 65px;
+    font-size: 50px;
+}
+.container h2{
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+.quiz{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.quiz .dish img{
+    max-width:275px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.quiz .dish p{
+    font-size: 20px;
+    color: #2b062b
+}
+.input-style{
+    justify-content: center;
+    display: flex;
+}
+.input-style p{
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.answ, .answ2 {
+
+    font-size: 17px;
+    cursor: pointer;
+    background: lemonchiffon;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 30px;
+}
+.answ {
+    width: 100px;
+}
+.answ2 {
+    width: 180px;
+    margin-bottom: 10px;
+}
+.right{
+    background-color: rgba(0, 200, 0, 0.5);
+}
+.wrong1 {
+    background-color: rgb(224, 25, 35);
+}
+.right_answ,
+.wrong-content {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.right,
+.wrong1{
+    padding: 5px;
+    font-size: 20px;
+    max-width: 300px;
+    align-content: center;
+    border-radius: 10px;
+}
+
+.hdn{
+    padding-bottom: 20px;
+    font-size: 22px;
+    display: none;
+}
+
+.opend{
+    background-color: skyblue;
+}
+.correct {
+    font-size: 20px;
+    padding-bottom: 200px;
+}
